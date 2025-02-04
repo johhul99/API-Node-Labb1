@@ -21,3 +21,7 @@ th {
 td {
     background-color: #b7ceff;
 }
+
+button {
+    color: black !important;
+}

@@ -24,7 +24,7 @@ async function fetchOrders() {
                     </ul>
                 </td>
                 <td>
-                    <button class="btn btn-primary" onclick="deleteOrder('${order._id}')">
+                    <button class="btn btn-primary fw-bold" onclick="deleteOrder('${order._id}')">
                        <i class="bi bi-archive"></i> Archive
                     </button>
                 </td>
