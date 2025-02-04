@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: rgb(162, 213, 255);
+}
+
+.table {
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5884ff !important; 
+    color: white;
+}
+
+td {
+    background-color: #b7ceff;
+}
