@@ -1,6 +1,6 @@
 async function fetchOrders() {
     try {
-        const response = await fetch(`hireahitmanapi.azurewebsites.net/api/orders`);
+        const response = await fetch(`http://localhost:3000/api/orders`);
         if (!response.ok) throw new Error("Nätverksfel, kunde ej hämta data");
         const data = await response.json();
         
@@ -39,7 +39,7 @@ async function deleteOrder(id) {
     if (!confirm("Är du säker på att du vill arkivera denna order?")) return;
 
     try {
-        const response = await fetch(`hireahitmanapi.azurewebsites.net/api/order/${id}`, {
+        const response = await fetch(`http://localhost:3000/api/order/${id}`, {
             method: "DELETE"
         });
 
